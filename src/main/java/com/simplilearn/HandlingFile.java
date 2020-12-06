@@ -77,7 +77,7 @@ public class HandlingFile {
 
 	public static void listOfFiles() {
 		System.out.println("============list of files======================================");
-		File folder = new File("C:\\Users\\biliy\\Desktop\\Java8\\Project\\Myfiles");
+		File folder = new File("Myfiles");
 		String contents[] = folder.list();
 
 		for (int i = 0; i < contents.length; i++) {
